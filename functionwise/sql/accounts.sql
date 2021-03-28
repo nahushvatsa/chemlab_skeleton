@@ -11,10 +11,10 @@ CREATE TABLE accounts (
   PRIMARY KEY (Email)
 ) 
 
--- Dumping data for table
+-- Dumping data for table accounts
 
-INSERT INTO accounts VALUES ('Admin','admin@mail.com','kjirmqhE','admin','2020-12-10',100);
-INSERT INTO accounts VALUES ('Nahush','email@mail.com','kjisppiL','student','2020-12-10',999);
-INSERT INTO accounts VALUES ('Praful','placeholder@mail.com','kjideU','student','2020-12-11',90);
-INSERT INTO accounts VALUES ('test','test@test.com','jixwiX','student','2020-12-10',-2026);
-INSERT INTO accounts VALUES ('test2','test2@test.com','jixwiX','student','2020-12-10',55);
+INSERT INTO accounts VALUES ('Admin','admin@mail.com','kjirmqhE','admin','2020-12-10',1000);
+INSERT INTO accounts VALUES ('Nahush','email@mail.com','kjisppiL','admin','2020-12-10',999);
+INSERT INTO accounts VALUES ('Praful','placeholder@mail.com','kjideU','student','2020-12-11',100);
+INSERT INTO accounts VALUES ('test','test@test.com','jixwiX','student','2020-12-10');
+INSERT INTO accounts VALUES ('test2','test2@test.com','jixwiX','student','2020-12-10');
