@@ -39,7 +39,7 @@ CREATE TABLE `accounts` (
 
 LOCK TABLES `accounts` WRITE;
 /*!40000 ALTER TABLE `accounts` DISABLE KEYS */;
-INSERT INTO `accounts` VALUES ('Admin','admin@mail.com','kjirmqhE','admin','2020-12-10',100),('Nahush','nahushvatsa@gmail.com','kjisppiL','student','2020-12-10',999),('Praful','pgchandarana@hotmail.com','kjideU','student','2020-12-11',90),('test','test@test.com','jixwiX','student','2020-12-10',-2026),('test2','test2@test.com','jixwiX','student','2020-12-10',55);
+INSERT INTO `accounts` VALUES ('Admin','admin@mail.com','kjirmqhE','admin','2020-12-10',100),('Nahush','email@mail.com','kjisppiL','student','2020-12-10',999),('Praful','placeholder@mail.com','kjideU','student','2020-12-11',90),('test','test@test.com','jixwiX','student','2020-12-10',-2026),('test2','test2@test.com','jixwiX','student','2020-12-10',55);
 /*!40000 ALTER TABLE `accounts` ENABLE KEYS */;
 UNLOCK TABLES;
 
