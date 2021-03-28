@@ -9,7 +9,7 @@ CREATE TABLE accounts (
   Datejoined date NOT NULL,
   Balance int NOT NULL DEFAULT '100',
   PRIMARY KEY (Email)
-) 
+);
 
 -- Dumping data for table accounts
 
