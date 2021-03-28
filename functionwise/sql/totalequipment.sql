@@ -5,7 +5,7 @@ CREATE TABLE totalequipment (
   TotalStock int DEFAULT NULL,
   AvailibleStock int DEFAULT NULL,
   Price int DEFAULT NULL
-) 
+);
 
 -- Dumping data for table totalequipment
 
