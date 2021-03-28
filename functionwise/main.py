@@ -1,0 +1,3 @@
+from acctmenu import *
+
+acctMenu()
