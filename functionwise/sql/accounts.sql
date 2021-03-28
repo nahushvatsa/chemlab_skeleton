@@ -1,7 +1,7 @@
 
-DROP TABLE IF EXISTS `accounts`;
+DROP TABLE IF EXISTS accounts;
 
-CREATE TABLE `accounts` (
+CREATE TABLE accounts (
   `Name` varchar(200) NOT NULL,
   `Email` varchar(200) NOT NULL,
   `Password` varchar(200) NOT NULL,
@@ -11,6 +11,10 @@ CREATE TABLE `accounts` (
   PRIMARY KEY (`Email`)
 ) 
 
-LOCK TABLES `accounts` WRITE;
+-- Dumping data for table
 
-INSERT INTO `accounts` VALUES ('Admin','admin@mail.com','kjirmqhE','admin','2020-12-10',100),('Nahush','email@mail.com','kjisppiL','student','2020-12-10',999),('Praful','placeholder@mail.com','kjideU','student','2020-12-11',90),('test','test@test.com','jixwiX','student','2020-12-10',-2026),('test2','test2@test.com','jixwiX','student','2020-12-10',55);
+INSERT INTO accounts VALUES ('Admin','admin@mail.com','kjirmqhE','admin','2020-12-10',100);
+INSERT INTO accounts VALUES ('Nahush','email@mail.com','kjisppiL','student','2020-12-10',999);
+INSERT INTO accounts VALUES ('Praful','placeholder@mail.com','kjideU','student','2020-12-11',90);
+INSERT INTO accounts VALUES ('test','test@test.com','jixwiX','student','2020-12-10',-2026);
+INSERT INTO accounts VALUES ('test2','test2@test.com','jixwiX','student','2020-12-10',55);
