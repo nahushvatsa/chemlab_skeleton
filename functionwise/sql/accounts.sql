@@ -9,7 +9,7 @@ CREATE TABLE `accounts` (
   `Datejoined` date NOT NULL,
   `Balance` int NOT NULL DEFAULT '100',
   PRIMARY KEY (`Email`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) 
 
 LOCK TABLES `accounts` WRITE;
 
