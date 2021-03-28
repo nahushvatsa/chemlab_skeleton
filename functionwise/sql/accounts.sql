@@ -2,13 +2,13 @@
 DROP TABLE IF EXISTS accounts;
 
 CREATE TABLE accounts (
-  `Name` varchar(200) NOT NULL,
-  `Email` varchar(200) NOT NULL,
-  `Password` varchar(200) NOT NULL,
-  `Accounttype` varchar(50) NOT NULL,
-  `Datejoined` date NOT NULL,
-  `Balance` int NOT NULL DEFAULT '100',
-  PRIMARY KEY (`Email`)
+  Name varchar(200) NOT NULL,
+  Email varchar(200) NOT NULL,
+  Password varchar(200) NOT NULL,
+  Accounttype varchar(50) NOT NULL,
+  Datejoined date NOT NULL,
+  Balance int NOT NULL DEFAULT '100',
+  PRIMARY KEY (Email)
 ) 
 
 -- Dumping data for table
